@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>disdikbudsrlg</title>
+</head>
+<body>
+<iframe src="https://script.google.com/macros/s/AKfycby5hQytzFT87HY_53pU1zetDvPWXo7mMURjiQEcv-L5lTPMu9DcAzQHl-MQMXhIRQNk/exec"
+width="100%"
+height="100%"
+allowfullscreen="true"
+style="position: fixed; top: 0; width: 100%; height: 100%; border: none;"></iframe>
+<script>
+window.onload = function() {
+document.querySelector('iframe').requestfullscreen().catch((err) => {
+console.error('error attempting to enable full-screen mode: ${err.message}');
+});
+};
+</script>
+</body>
+</html>
